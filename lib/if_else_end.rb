@@ -1,4 +1,6 @@
-run_code_inside = 
+run_code_inside = true
 puts "Code before if...end"
-code inside
-Code after if...end
+if run_code_inside
+  puts "code inside"
+end
+puts "Code after if...end"
